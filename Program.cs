@@ -9,20 +9,6 @@ using System.Web;
 
 class Program
 {
-    // This Program was designed to be a text version of chess
-    // You have to type simple chess notation to play the game
-
-    // Simpler Chess notation for input (i want to have this displayed in the game or as an option)
-    // Current Location (example: The King is on a1)
-    // Wanted Location (example: You want the King to be at  a2)
-    // The notation will be a1a2
-
-    // to convert the position of a to the index I will use ASCII
-    // to do that i subtract the number of a in the ASCII Table to itself and do this: 'a' - 'a'
-    // to get the index of the position 1 you do this: 1 (position) - 8 * -1
-    // I need to make it so that Pieces can't go over another piece except the horse
-
-
 
     static int Location_x = 0;
     static int Location_y = 0;
