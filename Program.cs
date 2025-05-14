@@ -1,15 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Numerics;
-using System.Runtime.CompilerServices;
-using System.Security.Permissions;
-using System.Web;
 
 class Program
 {
-
     static int Location_x = 0;
     static int Location_y = 0;
     static int Destination_x = 0;
